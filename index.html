@@ -9,6 +9,8 @@ PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
     <style type="text/css">
       body {
         
+		font-family:"微软雅黑","Times New Roman",Georgia,Serif;
+  
       }
     </style>
 	<link href="./bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
@@ -16,12 +18,14 @@ PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 	<!--head标签css的顺序不能变，charset一定要为utf-8，文件也存为utf-8-->
 	<body>
 		
-		<div class="navbar">
+		<div class="navbar navbar-inverse">
 			<div class="navbar-inner">
 				<div class="container">
 					<div class="row">
 						<div class="span12">
-							<a class="brand" href="#">高性能计算与数据工程实验室</a>
+							<a class="brand" href="#">
+							<img src=".\img\bar.jpg" width="120" height="90">
+							高性能计算与数据工程实验室</a>
 							<ul class="nav">
 							  <li class="active"><a href="index.html">主页</a></li>
 							  <li><a href="contactus.html">联系我们</a></li>
@@ -38,8 +42,33 @@ PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 					<div class="well sidebar-nav">
 						<ul class="nav nav-list">
 					
-						<li><a href="#">新闻动态</a></li>
-						<li><a href="#">成　　员</a></li>
+						<li class="dropdown">
+						<a href="#" class="dropdown" data-toggle="dropdown">新闻动态</a>
+							
+							  <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+								 <li><a  href="#">学术交流</a></li>
+							  </ul>
+						
+						</li>
+						 <li class="divider"></li>
+						<li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown" role="button">成　　员</a>
+							<ul id="menu1" class="dropdown-menu" aria-labelledby="drop4" role="menu">
+							<li>
+							<a href="#" tabindex="-1">Action</a>
+							</li>
+							<li>
+							<a href="#" tabindex="-1">Another action</a>
+							</li>
+							<li>
+							<a href="#" tabindex="-1">Something else here</a>
+							</li>
+							<li class="divider"></li>
+							<li>
+							<a href="#" tabindex="-1">Separated link</a>
+							</li>
+							</ul>
+						</li>
+						 <li class="divider"></li>
 						<li><a href="#">论文著作</a></li>
 						<li><a href="#">项目支持</a></li>
 						<li><a href="#">研究方向</a></li>
@@ -53,6 +82,9 @@ PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 				</div><!--/span-->
 			</div>
 		</div><!--container结束-->
+		
+		   <script src="./js/jquery-1.7.2.js"></script>
+		   <script src="./bootstrap/js/bootstrap.min.js"></script>
 	</body>
 	
 </html>
