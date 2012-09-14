@@ -19,27 +19,7 @@ PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 	  }
 	 
     </style>
-	<script src="./js/jquery-1.7.2.js"></script>
-	<script src="./bootstrap/js/bootstrap.min.js"></script>
-	<script>
-	//采用jquery的attr添加网页地址便于管理
-	//采用addClass("active")将<li>设为active
-		$(document).ready(function(){
-		
-			$("#shouye").addClass("active");
-			
-			$("#xueshujiaoliu a").attr("href","academic.html");
-			$("#jiaoshi a").attr("href","teachers.html");
-			$("#boshisheng a").attr("href","doctors.html");
-			$("#shuoshisheng a").attr("href","masters.html");
-			$("#wangjie a").attr("href","previous.html");
-			$("#lunwenzhuzuo a").attr("href","publications.html");
-			$("#xiangmuzhichi a").attr("href","support.html");
-			
-			$("#hezuo a").attr("href","corp.html");
-			$("#zhaopin a").attr("href","jobs.html");
-		});
-	</script>
+	
 	</head>
 	<!--head标签css的顺序不能变，charset一定要为utf-8，文件也存为utf-8-->
 	<body>
@@ -150,6 +130,28 @@ inherit	规定应该从父元素继
 			</div><!--row-->
 		</div><!--container结束-->
 		
+		<!--js扔最后加载-->
+	<script src="./js/jquery-1.7.2.js"></script>
+	<script src="./bootstrap/js/bootstrap.min.js"></script>
+	<script>
+	//采用jquery的attr添加网页地址便于管理
+	//采用addClass("active")将<li>设为active
+		$(document).ready(function(){
+		
+			$("#hezuo").addClass("active");
+			
+			$("#xueshujiaoliu a").attr("href","academic.html");
+			$("#jiaoshi a").attr("href","teachers.html");
+			$("#boshisheng a").attr("href","doctors.html");
+			$("#shuoshisheng a").attr("href","masters.html");
+			$("#wangjie a").attr("href","previous.html");
+			$("#lunwenzhuzuo a").attr("href","publications.html");
+			$("#xiangmuzhichi a").attr("href","support.html");
+			
+			$("#hezuo a").attr("href","corp.html");
+			$("#zhaopin a").attr("href","jobs.html");
+		});
+	</script>
 		
 	</body>
 	
