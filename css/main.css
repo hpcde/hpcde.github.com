@@ -27,7 +27,7 @@ h4{
 	border-bottom:  2px solid #0088CC;
 	}
 	
-.portrait{
+.portrait{/*老师照片*/
 	width:120px;
 	height:160px;
 }
@@ -41,6 +41,11 @@ p{
 }
 .newsimg{
 margin:0 auto;
+}
+
+.widthimg{
+margin:15px;
+width:85%;
 }
 
 .maincontent{
