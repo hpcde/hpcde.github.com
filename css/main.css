@@ -15,10 +15,26 @@ font-size:24px;
 
 }
 h3{
-	font-size:18px;
+	font-size:20px;
 	
 	font-family:"新宋体","微软雅黑","黑体","Times New Roman",Georgia,Serif;
 	}
+h4{
+	font-size:16px;
+	}
+.lines{
+	
+	border-bottom:  2px solid #0088CC;
+	}
+	
+.portrait{
+	width:120px;
+	height:160px;
+}
+
+.noindent{
+	text-indent:0;
+}	
 	
 p{
 	text-indent:2em;
