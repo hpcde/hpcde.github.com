@@ -7,7 +7,7 @@
 	<link href="/bootstrap/css/bootstrap.css" rel="stylesheet"/>
     
 	<link href="/bootstrap/css/bootstrap-responsive.css" rel="stylesheet"/>
-	
+	<link href="/artzoom/jquery.artZoom.css" rel="stylesheet" type="text/css" />
 	<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -15,6 +15,20 @@
 	<style type="text/css">
 		@import url("/css/main.css");
 	</style> 
+	<style>
+	 .zoomIcon { 
+        width:33px; 
+        height:33px; 
+        position:absolute; 
+        top:0;
+        right:0;
+        background:url(/js/icon.png);
+    }
+    .zoom {
+        display:inline-block;
+        position:relative;
+    }
+	</style>
 	</head>
 	<!--head标签css的顺序不能变，charset一定要为utf-8，文件也存为utf-8-->
 	<body>
@@ -37,7 +51,7 @@
 		</div>
 		
 		<div class="page-header">
-		<img src="/img/Logo.png" width="40%" height="40%"/>
+		<img src="/img/Logo.png" class="logoimg"/>
 		</div>
 		
 		<div class="container">
@@ -111,8 +125,13 @@
 						<h2>领域语义数据集成及科学数据云技术</h2>
 						<p>科学数据的集成与共享是数据密集型应用的重要基础。由于科学数据往往具有分布性和异构性，使各数据源间的交互变得困难，数据源之间的语义不一致成为科学数据与知识共享的巨大障碍，因此本研究方向主要着手于如何在语义层面进行特定领域科学数据的集成与共享以及针对应用服务构建不同领域科学数据云。</p>
 						<p>研究方向包括材料信息学的语义模型和语义映射，结构化、半结构化和非结构化材料数据的语义集成，基于语义的数据查询，科学数据云技术等。</p>
-						<img src="\img\research1_1.png"/>
-						<img class="widthimg" src="\img\research1_2.png"/>
+						<div class="tocenter">
+						<img src="/img/research1_1.png"/>
+						<a href="/img/research1_2.png" ref="/img/research1_2.png">
+							<img src="/img/research1_2.png" class="rschimg"/>
+						</a>
+						</div>
+					
 					</div>
 				</div>
 			</div><!--row-->
@@ -123,6 +142,7 @@
 		<!--js扔最后加载-->
 	<script src="/js/jquery-1.7.2.js"></script>
 	<script src="/bootstrap/js/bootstrap.min.js"></script>
+	<script src="/artzoom/jquery.artZoom.min.js"></script>
 	<script>
 	//采用jquery的attr添加网页地址便于管理
 	//采用addClass("active")将<li>设为active
@@ -145,6 +165,14 @@
 			$("#yanjiufangxiang2 a").attr("href","/research2.html");
 			$("#yanjiufangxiang3 a").attr("href","/research3.html");
 			$("#yanjiufangxiang4 a").attr("href","/research4.html");
+			
+			$(".rschimg").artZoom({
+						path: '/artzoom/images',	// 设置artZoom图片文件夹路径
+						preload: true
+						});
+		
+					
+
 		});
 	</script>
 		

@@ -8,6 +8,7 @@
     
 	<link href="/bootstrap/css/bootstrap-responsive.css" rel="stylesheet"/>
 	
+	<link href="/artzoom/jquery.artZoom.css" rel="stylesheet" type="text/css" />
 	<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -37,7 +38,7 @@
 		</div>
 		
 		<div class="page-header">
-		<img src="/img/Logo.png" width="40%" height="40%"/>
+		<img src="/img/Logo.png" class="logoimg"/>
 		</div>
 		
 		<div class="container">
@@ -111,8 +112,14 @@
 						<h2>领域大数据管理及虚拟数据空间技术</h2>
 						<p>怎样从领域科学数据中迅速获取有价值的信息，是领域大数据管理中的主要问题。领域数据量庞大，数据类型繁多，关联复杂，流动性强，变化速度快，时效性高，需要及时处理有效跟踪。因此，构建领域大数据管理模式，实现领域大数据统一存储管理、按需提供服务是本研究方向研究重点。</p>
 						<p>研究方向包括领域科学数据云环境下的虚拟数据空间模型，虚拟数据空间映射与演化机制，领域科学数据云服务模型，领域科学数据云计算环境中的大数据管理模型和方法等。</p>
-						<img class="widthimg" src="\img\research2_1.png"/>
-						<img class="widthimg" src="\img\research2_2.png"/>
+						<div class="tocenter">
+						<a href="/img/research2_1.png" ref="/img/research2_1.png">
+							<img id="zoom_1" class="rschimg well" src="/img/research2_1.png"/>
+						</a>
+						<a href="/img/research2_2.png" ref="/img/research2_2.png">
+							<img id="zoom_2" class="rschimg well" src="/img/research2_2.png"/>
+						</a>
+						</div>
 					</div>
 				</div>
 			</div><!--row-->
@@ -123,6 +130,7 @@
 		<!--js扔最后加载-->
 	<script src="/js/jquery-1.7.2.js"></script>
 	<script src="/bootstrap/js/bootstrap.min.js"></script>
+	<script src="/artzoom/jquery.artZoom.min.js"></script>
 	<script>
 	//采用jquery的attr添加网页地址便于管理
 	//采用addClass("active")将<li>设为active
@@ -145,6 +153,11 @@
 			$("#yanjiufangxiang2 a").attr("href","/research2.html");
 			$("#yanjiufangxiang3 a").attr("href","/research3.html");
 			$("#yanjiufangxiang4 a").attr("href","/research4.html");
+			$(".rschimg").artZoom({
+						path: '/artzoom/images',	// 设置artZoom图片文件夹路径
+						preload: true
+						});
+		
 		});
 	</script>
 		

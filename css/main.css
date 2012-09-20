@@ -27,7 +27,7 @@ h4{
 	border-bottom:  2px solid #0088CC;
 	}
 	
-.portrait{/*老师照片*/
+.portrait{/*肖像照*/
 	width:120px;
 	height:160px;
 }
@@ -39,15 +39,28 @@ h4{
 p{
 	text-indent:2em;
 }
-.newsimg{
-margin:0 auto;
+.logoimg{
+width:400px;
+height:90px;
 }
 
 .widthimg{
 margin:15px;
-width:85%;
+width:600px;
 }
 
+
+.newsimg{
+margin:0 auto;
+}
+
+.rschimg{
+height:280px;
+
+}
+.tocenter{
+text-align:center;
+}
 .maincontent{
 	margin:10px;
 }
