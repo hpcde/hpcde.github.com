@@ -22,6 +22,12 @@ h3{
 h4{
 	font-size:16px;
 	}
+	
+ body {
+
+padding-bottom: 40px;
+}
+
 .lines{
 	
 	border-bottom:  2px solid #0088CC;
@@ -30,6 +36,9 @@ h4{
 .portrait{/*肖像照*/
 	width:120px;
 	height:160px;
+}
+.studentsimg{/*学生照片*/
+height:250px;
 }
 
 .noindent{
