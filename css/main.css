@@ -6,7 +6,9 @@ margin:0;
 #nav{
 background:#131313;
 }
-
+.publicationslist{
+	margin:0 2em;
+}
 h2{
 font-size:24px;
 	font-family:"微软雅黑","黑体","Times New Roman",Georgia,Serif;
