@@ -3,6 +3,11 @@ font-family:"微软雅黑","黑体","Times New Roman",Georgia,Serif;
 margin:0;
 }
 
+.highlist li{
+line-height:2.5em;
+}
+
+
 #nav{
 background:#131313;
 }
