@@ -1,0 +1,41 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title> {{ .Site.Title }} </title>
+		<link rel="stylesheet" href="{{ .Site.BaseURL }}css/foundation.css" type="text/css" media="screen">
+		<link rel="stylesheet" href="{{ .Site.BaseURL }}css/styles.css" type="text/css" media="screen">
+		<style type="text/css">
+		@media (min-width: 768px){
+			.container {
+				width: 750px;
+			}
+		}
+		@media (min-width: 992px){
+			.container {
+				width: 970px;
+			}
+		}
+		@media (min-width: 1200px){
+			.container {
+				width: 1170px;
+			}
+		}
+
+		.container {
+			padding-right: 15px;
+			padding-left: 15px;
+			margin-right: auto;
+			margin-left: auto;
+		}
+		.article-content {
+			margin: 2rem 0;
+		}
+		.article-content article{
+			text-align: justify;
+			font-family: "Helvetica Neue",Helvetica,Arial,"Heti Hei",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+		}
+		</style>
+	</head>

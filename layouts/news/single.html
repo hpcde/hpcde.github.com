@@ -1,0 +1,17 @@
+{{ partial "start.html" . }}
+{{ partial "menu.html" . }}
+{{ "<!-- Partials that make up the site -->" | safeHTML }}
+
+<section class="article-content">
+    <div class="container row">
+        <h1>{{ .Title }}</h1>
+        <time datetime={{ .Date.Format "2006-01-02T15:04:05Z0700" }}
+            class="post-date">{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
+        <article>
+            {{ .Content }}
+        </article>
+    </div>
+</section>
+
+{{ partial "footer.html" . }}
+{{ partial "end.html" . }}
