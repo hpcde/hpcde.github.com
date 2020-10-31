@@ -1,7 +1,7 @@
 ---
 title: "硕士生"
 date: 2020-10-31T20:54:48+08:00
-draft: true
+draft: false
 ---
 
 > Information on this page may be **Outdated**.  
