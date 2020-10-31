@@ -1,0 +1,89 @@
+﻿.navbar,.nav {
+font-family:"微软雅黑","黑体","Times New Roman",Georgia,Serif;
+margin:0;
+}
+
+.highlist li{
+line-height:2.5em;
+}
+
+
+#nav{
+background:#131313;
+}
+.publicationslist{
+	margin:0 2em;
+}
+h2{
+font-size:24px;
+	font-family:"微软雅黑","黑体","Times New Roman",Georgia,Serif;
+	color:#fff;
+	background-color:#447192;
+
+}
+h3{
+	font-size:20px;
+	
+	font-family:"新宋体","微软雅黑","黑体","Times New Roman",Georgia,Serif;
+	}
+h4{
+	font-size:16px;
+	}
+	
+ body {
+
+padding-bottom: 40px;
+}
+
+.lines{
+	
+	border-bottom:  2px solid #0088CC;
+	}
+	
+.portrait{/*肖像照*/
+	width:120px;
+	height:160px;
+}
+.studentsimg{/*学生照片*/
+height:250px;
+}
+
+.noindent{
+	text-indent:0;
+}	
+	
+p{
+	text-indent:2em;
+}
+.logoimg{
+width:400px;
+height:90px;
+}
+
+.widthimg{
+margin:15px;
+width:600px;
+}
+
+
+.newsimg{
+margin:0 auto;
+}
+
+.rschimg{
+height:280px;
+
+}
+.tocenter{
+text-align:center;
+}
+.maincontent{
+	margin:10px;
+}
+.page-header{
+	margin-top:0px;
+}
+.page-header{
+	background:url(../img/kas7k0g.png);
+	background-repeat: repeat;
+	}

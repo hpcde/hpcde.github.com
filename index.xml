@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>HPCDE lab</title><link>http://hpcde.github.io/</link><description>Recent content on HPCDE lab</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 31 Oct 2020 16:32:26 +0800</lastBuildDate><atom:link href="http://hpcde.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>实验室简介</title><link>http://hpcde.github.io/p/introduce/</link><pubDate>Sat, 31 Oct 2020 16:32:26 +0800</pubDate><guid>http://hpcde.github.io/p/introduce/</guid><description>This section is a work in progress. A pull request is welcome! 💐✨
+Information on this page may be Outdated.
+Please visite https://mp.weixin.qq.com/s/LlCAr3Iyv7ma8khI0sRKeg instead.
+北京科技大学高性能计算与数据工程实验室（High Performance Computing and Data Engineering Lab, HPC&amp;amp;DE Labs）成立于2004年。 现有教授2人，副教授3人，讲师2人，博士后2人。 实验室面积近300平方米，具有以万亿次高性能计算机和64核高性能服务器为代表硬件设备和以Oracle数据库管理系统等为代表的大型软件开发工具。 设备资产价值400多万元。
+实验室在基于混合体系结构的并行计算模型和并行编译技术、领域数据工程等领域取得了一批高水平科研成果，具有良好的国际影响。 在领域数据工程领域，针对材料科学数据特点，结合国家材料科学数据共享服务平台的建设，提出了材料科学数据语义模型，构建了一套领域科学数据语义集成技术。 论文“Ontology-Based Semantic Integration Method for Domain-Specific Scientific Data”被美国南加州大学研究生课程“Distributed Multimedia Information Management”（csci586）选为教学材料。 相关研究成果被欧洲标准化委员会的CEN WORKSHOP AGREEMENT（A Guide to the Development and Use of Standards Compliant Data Formats for Engineering Materials Test Data，工程材料测试数据的标准数据格式开发与使用指南）等引用并详细描述。 针对石油开发工程的需求和数据特点，主持建立了石油开发软件集成规范，构建了油气开采工程优化设计、诊断决策系统，在大港、华北、冀东、吉林、大庆等油田广泛推广。 在高性能计算领域，提出了多范例、多粒度并行计算模型，建立了一套面向核外、非规则问题的并行编译优化技术，相关成果FGCS,Phyics computer letters,中国科学等国内外高水平杂志发表。 先后和UIUC，新南威尔士大学，麦克马斯特大学、伯明翰大学、捷克技术大学等联合培养该领域博士生4名。 实验室自建立以来，先后主持国家重大科技基础设施（大科学工程）课题一项，国家科技基础条件平台项目1项，国家973课题一项，863课题2项，国家十一五、十二五科技支撑计划课题2项。北京市重大科技研究计划项目1项。 在语义数据集成、Web数据挖掘、多核并行计算等领域发表学术论文100余篇，被SCI、EI和ISTP检索的论文70多篇，影响因子1.</description></item><item><title>往届</title><link>http://hpcde.github.io/team/previous/</link><pubDate>Sat, 31 Oct 2020 16:12:37 +0800</pubDate><guid>http://hpcde.github.io/team/previous/</guid><description>博士 2005级
+刘茹娟、王珏、 张纪林、 张晓明
+2006级
+翁彧、李华煜、焦峰
+2007级
+刘雅丽、曹倩、欧阳纯萍、亚古巴、狄鹏
+2008级
+赵立永、彭云峰、王慧玲
+2009级
+宫法明
+2020级
+王先梦(研究方向: 数值堆热工水力)
+未归类
+龚　安 杨　晶 刘振宇 李士刚 葛敬军(gejingjun2000@126.com) 李江华 金明灿(kmc76321@yahoo.cn) 成　欣(chengxin0613@163.com) 黄建一(728684087@qq.com) 要曙财(728684087@qq.com) 刘　歆(ustb.liuxin@gmail.com) 硕士 2003级
+李佳、陈雁、邱博、安圣宇
+2004级
+丁良、常晓东、李永红、李静、李景祥、王召俊
+2005级
+姚广利、王志明、张海阔、魏硕、邹伟华、邱岩、张会根、赵乾、王鑫、张琴、刘珊珊
+2006级
+张晓飞、张正伟、吴宏文、邵烨伟、赵若鹏、倪月敏、杨庆彪、王晓光、王小妮、陈亭、刘振华、樊中华、岳维伟、李虎、郜哲、吴丽
+2007级
+郑显玲、田风革、刘茜、任晓谢、罗艳辉、李辉、李道义、何龙、黑眈、严林、刘珍珍、路川、 李兴刚、薛成秀、李俊丽、张 学春、柴建伟、王慧玲
+2008级
+王礞、王智超、陈俊秀、朱于畋、艾国信、杜江辉、束锋华、王金玲、张磊、王聃、孙丽丽、方贤俊、 姜涛、张云星、张洁婷、付红杰、饶鑫、胡威、滕雯、刘梦川
+2009级
+黄媛媛、李清灏、卢小萍、苗学思、吴玲、何皓虎、陈毅
+2010级
+黄轶</description></item><item><title>教师</title><link>http://hpcde.github.io/team/teachers/</link><pubDate>Sat, 31 Oct 2020 16:12:37 +0800</pubDate><guid>http://hpcde.github.io/team/teachers/</guid><description>胡长军 实验室主任教授/博士生导师 北京科技大学学术委员会委员智能超算融合应用技术教育部工程研究中心主任 (曾任)北京科技大学计算机与通信工程学院副院长 北京科技大学计算机科学与技术系 研究方向: 超级计算机体系结构及系统软件；大数据工程及计算智能；大规模并行应用软件系统 Email: huchangjun@ies.ustb.edu.cn
+更多 李建江 教授 中国计算机学会高性能计算专业委员会委员 《大数据》编委 多个计算机领域国际期刊、国内期刊审 北京科技大学计算机科学与技术系 研究方向: 高性能计算 并行计算 分布式计算 云计算与大数据 Email: lijianjiang@ustb.edu.cn
+更多 时　鹏 研究员/博导
+北京科技大学国家材料服役安全科学中心 研究方向: 材料大数据 人工智能应用 高性能计算 社交网络分析 Email: pshi@ustb.edu.cn
+更多 姚宣霞 教授</description></item><item><title>Open source projects</title><link>http://hpcde.github.io/p/open_source/</link><pubDate>Fri, 30 Oct 2020 21:33:33 +0800</pubDate><guid>http://hpcde.github.io/p/open_source/</guid><description>cd open_source
+大规模分子动力学模拟软件 MISA-MD https://github.com/misa-md</description></item><item><title>CODATA前任主席John Rumbleb博士访问我院材料数据工程实验室</title><link>http://hpcde.github.io/news/2012-john-rumbleb/</link><pubDate>Mon, 23 Apr 2012 00:56:32 +0800</pubDate><guid>http://hpcde.github.io/news/2012-john-rumbleb/</guid><description>4月23日上午，John Rumble博士访问了我院材料数据工程实验室。 John Rumble博士现任国际信息协会(IIA: Information International Associates) 项目经理，Data Science Journal期刊主编，R&amp;amp;R 数据服务公司的董事长。 曾任国际信息协会 IIA执行副总裁， 美国国家标准技术研究所（NIST：National Institute of Standards and Technology）标准参考组组长，CODATA(国际科学数据共享合作组织)主席。
+Dr.Rumble博士此次来访的目的是对国际上材料科学数据共享领域有影响的研究工作进行深入调研。 此前他先后访问了日本和英国。他首先给出了题为“Accessing Materials Data Today: Successes and Challenges”的调研提纲。 随后围绕调研提纲胡长军教授、李扬博士围绕北京科技大学承担建设的国家科技基础条件平台项目“国家材料科学数据共享服务平台”做了简要地介绍。 胡长军教授、时鹏老师和Dr.Rumble进行了广泛、深入的讨论。
+随后Dr. Rumble参观了材料数据工程实验室的高性能计算机群，仔细观看了项目组的成果演示，并就实验室发表的基于Ontology 技术的材料数据集成方面的相关论文进行了深入的研讨。 最后Dr.Rumble正式邀请胡长军教授和李杨博士参加今年10月在台北举行的CODATA年会。</description></item></channel></rss>
