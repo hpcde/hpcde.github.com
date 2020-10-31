@@ -1,4 +1,4 @@
-baseURL = "http://hpcde.github.io/"
+baseURL = "https://hpcde.github.io/"
 languageCode = "en-us"
 title = "HPCDE lab"
 theme = "foundation-theme"
@@ -76,4 +76,4 @@ url = "http://ercis.ustb.edu.cn"
 
 [[menu.social]]
 name = "Team on Github"
-url = "http://github.com/hpcde"
+url = "https://github.com/hpcde"
