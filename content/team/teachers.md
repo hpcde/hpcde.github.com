@@ -41,7 +41,7 @@ draft: false
 - 北京科技大学计算机科学与技术系
 - **研究方向**: 进化计算 软件工程
 - **Email**: liiyang@ustb.edu.cn  
-[更多](http://scce.ustb.edu.cn/shiziduiwu/jiaoshixinxi/2018-04-12/64.html)
+[更多](http://scce.ustb.edu.cn/shiziduiwu/jiaoshixinxi/2018-04-12/52.html)
 
 ### 李　扬
 ![](/archived/teachersimg/liyang.jpg)  
@@ -69,4 +69,4 @@ draft: false
 - 北京科技大学计算机科学与技术系
 - **研究方向**: 网络与信息安全 工业机器视觉
 - **Email**: Kathy.yao@163.com  
-[更多](http://scce.ustb.edu.cn/shiziduiwu/jiaoshixinxi/2018-04-12/52.html)
+[更多](http://scce.ustb.edu.cn/shiziduiwu/jiaoshixinxi/2018-07-20/170.html)
