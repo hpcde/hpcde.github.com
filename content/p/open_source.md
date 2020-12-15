@@ -17,6 +17,6 @@ draft: false
 <a target="_blank" href="https://wj.qq.com/s2/7503523/0a8a/" class="button primary">下载</a>
 
 ### 并行团簇动力学模拟软件 MISA-SCD
-Github: https://github.com/MISA-SCD/MISA-SCD  
-文档: coming soon   
+<a class="github-button" href="https://github.com/MISA-SCD/MISA-SCD" data-size="large" aria-label="Follow @misa-scd on GitHub">Follow @misa-scd</a>  
+文档: https://github.com/MISA-SCD/MISASCD-Doc  
 <a target="_blank" href="https://wj.qq.com/s2/7503523/0a8a/" class="button primary">下载</a>
