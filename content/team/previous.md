@@ -6,7 +6,7 @@ draft: false
 
 ### 博士
 **2005级**  
-刘茹娟、[王珏](http://www.cnic.cas.cn/yfdw/yqch/index_64631.html?json=http://sourcedb.cnic.cas.cn/zw/zjrc/yqch/201605/t20160531_4613524.json)、
+刘茹娟、[王珏](http://www.cnic.cas.cn/sourcedb_cnic_cas/zw/zjrc/xwgg/202107/t20210702_6125763.html)、
 [张纪林](http://cbs.hdu.edu.cn/2020/0622/c2588a109906/page.htm)、
 [张晓明](https://xxxy.web.hebust.edu.cn/jyjx/yjsjy/ssjy/zhangxiaoming.htm)
 
@@ -14,7 +14,7 @@ draft: false
 [翁彧](https://xingong.muc.edu.cn/info/1051/1150.htm)、李华煜、焦峰
 
 **2007级**  
-刘雅丽、曹倩、[欧阳纯萍](http://jsjxy.usc.edu.cn/info/2022/4741.htm)、亚古巴、狄鹏
+刘雅丽、曹倩、[欧阳纯萍](http://jsjxy.usc.edu.cn/info/2022/4741.htm)、亚古巴、[狄鹏](https://www.cse.unsw.edu.au/~pengd/)([github page](https://pengd.github.io/cv/))
 
 **2008级**  
 赵立永、彭云峰、王慧玲
@@ -22,14 +22,14 @@ draft: false
 **2009级**  
 宫法明
 
-**2020级**  
-王先梦(研究方向: 数值堆热工水力)
+**2017 级**  
+王先梦(研究方向: 高性能计算、数值堆热工水力)
 
 **未归类**
 - 龚　安
 - 杨　晶
 - 刘振宇
-- 李士刚
+- [李士刚](https://shigangli.github.io)
 - 葛敬军(gejingjun2000@126.com)
 - 李江华
 - 金明灿(kmc76321@yahoo.cn)
@@ -37,6 +37,9 @@ draft: false
 - 黄建一(728684087@qq.com)
 - 要曙财(728684087@qq.com)
 - 刘　歆(ustb.liuxin@gmail.com)
+- 胡颖
+- 许文文
+- 方明哲
 
 ### 硕士
 **2003级**  
@@ -62,3 +65,19 @@ draft: false
 
 **2010级**  
 黄轶
+
+<!-- 中间未维护，可能信息未知 -->
+**2015 级**
+任颖文、白鹤、王先梦
+
+**2016 级**
+汪丽梅、许晴晴、李丹宁、吴彦飞、杨玲玉
+
+**2017 级**
+吴佳豪、毛爽、岑鑫、蔡银宇、方雅、陈颖颖
+
+**2018 级**
+周志峰、宫小娟、王根、杨衍康、郭苏萱、王星伟、时加
+
+**2019 级**
+朱迎、王璐瑶、邵瑞航、曹敏、蒋章程、梁锦绣
