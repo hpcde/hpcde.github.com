@@ -29,10 +29,10 @@ btngreen = "最新进展"
 contentOneTitle = "动态"
 contentTwoTitle = "简介"
 contentOneBody = """
-1. 2012年10月，李士刚论文“Asynchronous Work Stealing on Distributed Memory Systems”被PDP 2013（21st Euromicro International Conference on Parallel, Distributed, and Network-Based Processing）国际会议录用。  
-2. 2012年9月，欢迎新同学（张吉群、沙超群、贾丽娜、方明哲、傅全权、曾婉姝、王道沁、许文文）加盟实验室  
-3. 2012年8月，林薇、牛嵘霞等开题  
-4. 2012年4月23日，CODATA前任主席John Rumbleb博士访问我院材料数据工程实验室  
+1. 2022年11月，恭喜实验室团队在第三届“[先导杯](https://cas-pra.sugon.com)”计算应用大奖赛中分别获得一项一等奖和一项二等奖。
+2. 2012年10月，李士刚论文“Asynchronous Work Stealing on Distributed Memory Systems”被PDP 2013（21st Euromicro International Conference on Parallel, Distributed, and Network-Based Processing）国际会议录用。  
+3. 2012年9月，欢迎新同学（张吉群、沙超群、贾丽娜、方明哲、傅全权、曾婉姝、王道沁、许文文）加盟实验室  
+4. 2012年8月，林薇、牛嵘霞等开题  
 [更多](/news)
 """
 

@@ -64,7 +64,7 @@ draft: false
 
 ### 王铮
 <img src="http://scce.ustb.edu.cn/attach/file/shiziduiwu/jiaoshixinxi/2018-07-20/d1fa2d88dea3c0929cb73c1635220913.jpg" width="160" />  
-博士后/讲师
+博士后/讲师 (已出站)
 
 - 北京科技大学计算机科学与技术系
 - **研究方向**: 网络与信息安全 工业机器视觉
