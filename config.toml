@@ -11,6 +11,9 @@ canonifyURLs = true
 
 SectionPagesMenu = ["main", "social"]
 
+[params]
+custom_css = ["css/custom.css"]
+
 [params.meta]
 description = "北京科技大学高性能计算与数据工程实验室"
 keywords = "USTB, AI, hpc, developer"

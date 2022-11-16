@@ -38,4 +38,7 @@
 			font-family: "Helvetica Neue",Helvetica,Arial,"Heti Hei",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
 		}
 		</style>
+	{{ range .Site.Params.custom_css -}}
+		<link rel="stylesheet" href="{{ . | absURL }}">
+	{{- end }}
 	</head>
