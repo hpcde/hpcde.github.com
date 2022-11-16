@@ -70,6 +70,18 @@ url = "/p/interests"
 name = "科研成果"
 url = "/p/publications"
 
+[[menu.internal_portals]]
+name = "Git Repository"
+url = "https://links.hpcer.dev/git"
+
+[[menu.internal_portals]]
+name = "Wiki"
+url = "https://links.hpcer.dev/wiki"
+
+[[menu.internal_portals]]
+name = "Cluster Docs"
+url = "https://links.hpcer.dev/cluster-docs"
+
 [[menu.social]]
 name = "计算机与通信工程学院"
 url = "http://scce.ustb.edu.cn"
