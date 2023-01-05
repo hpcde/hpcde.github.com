@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>admin | HPCDE Lab</title><link>https://hpcde.github.io/author/admin/</link><atom:link href="https://hpcde.github.io/author/admin/index.xml" rel="self" type="application/rss+xml"/><description>admin</description><generator>Wowchemy (https://wowchemy.com)</generator><language>zh-Hans</language><lastBuildDate>Sun, 17 Oct 2021 08:00:00 +0800</lastBuildDate><image><url>https://hpcde.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url><title>admin</title><link>https://hpcde.github.io/author/admin/</link></image><item><title>实验室团队在第二届 “先导杯” 计算应用大奖赛中获“SpMV”赛道二等奖</title><link>https://hpcde.github.io/post/2021-pra/</link><pubDate>Sun, 17 Oct 2021 08:00:00 +0800</pubDate><guid>https://hpcde.github.io/post/2021-pra/</guid><description>&lt;p>10月15日，中科曙光和百度公司等联合主办的第二届“先导杯”计算应用大奖赛圆满落幕。由实验室成员（储根深（队长）、何远杰、丁哲昭、董玲玉、邢龙岳、戴潮虎、卢旭）组成的&amp;quot;PHP是最好的编程语言&amp;quot;战队斩获“SpMV”赛道二等奖，
+斩获奖金6万元。&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="http://scce.ustb.edu.cn/attach/file/xinwentongzhi/xueyuanxinwen/2021-10-17/2ccaee86d5dfda1d17c34fcf35921944.jpg" alt="" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>第二届“先导杯”计算应用大奖赛于2021年4月至10月举办，该赛专注于基础核心算法的探究、应用领域原创性开发的培育，以及软件环境、学科应用等方面瓶颈的突破。
+多所重点高校、科研机构、知名企业的1500多名选手、1000余支战队积极参与，共产出数百份创新应用的移植、优化成果，涉及二十几个领域的交叉应用，为我国计算软件应用的生态建设添砖加瓦。
+大赛共分为七个赛道，每个赛道设置一等奖一个，二等奖两个，三等奖三个。
+其中SpMV（稀疏矩阵向量乘）赛道要求采用异构编程加速SpMV，重点关注双精度实数在异构计算平台上的计算性能。
+实验室&amp;quot;PHP是最好的编程语言&amp;quot;战队突破重重难关，提出了适用于不同矩阵特征的创新性算法，在曙光计算平台上完成了SpMV的高效实现，创建了通用的 &lt;a href="https://github.com/hpcde/spmv-acc" target="_blank" rel="noopener">SpMV-acc&lt;/a> 算法库，算法库中集成了适用于不同矩阵特征的多计算种策略，测试结果相对 rocSparse 算法库性能提升16%-70%，获得了较高的浮点计算性能和访存带宽。
+代码现已在github开源：https://github.com/hpcde/spmv-acc (Apache-2.0 协议)。&lt;/p>
+&lt;p style="text-align:center">
+&lt;img src="https://hpcde.github.io/images/news/pra-2021/spmv-performance.webp"/>
+&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="http://scce.ustb.edu.cn/attach/file/xinwentongzhi/xueyuanxinwen/2021-10-17/fb4742f5cf2288a07646ffc928780fd9.jpg" alt="" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p></description></item><item><title>实验室大规模并行分子动力学模拟软件 MISA-MD 获"天河之星"优秀应用奖</title><link>https://hpcde.github.io/post/2020-misa-md-tianhe-star/</link><pubDate>Fri, 04 Dec 2020 06:50:32 +0800</pubDate><guid>https://hpcde.github.io/post/2020-misa-md-tianhe-star/</guid><description>&lt;p>近日，实验室开发的大规模并行分子动力学模拟软件 MISA-MD 获得国家超算广州中心的&amp;quot;天河之星&amp;quot;优秀应用奖，
+团队成员前往广州参加用户大会，并出席优秀应用颁奖典礼。&lt;/p>
+&lt;p>据悉，本次&amp;quot;天河之星&amp;quot;优秀应用奖，面向全国多个应用领域征集，并从中遴选出 20 个优秀应用。&lt;/p>
+&lt;p>此次获奖的分子动力学软件 MISA-MD 是团队主持开发的 MISA 系列材料多尺度模拟软件中的一款，
+其可以利用复杂的 EAM 势函数来模拟级联碰撞导致的初始缺陷产生过程。
+实验室团队成员联合中国原子能科学院研究团队，在天河2号超算上利用 MISA-MD 程序，完成了不同 PKA 能量、方向下的级联碰撞应用算例。
+通过模拟与结果分析，MISA-MD 获得了不同 PKA 能量下的铁基材料受到高能中子轰击后的缺陷演化过程。并获得级联碰撞过程之后的稳定缺陷空间分布，为后续更长时间的缺陷演化模拟方法提供了初始输入与必要参数。通过应用大规模高性能的 MD 模拟，有望进一步突破时空尺度限制，进行更大时空尺度的材料演化模拟，揭示材料微观演化机理。&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;/th>
+&lt;th>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;p style="text-align:center">&lt;img src="https://hpcde.github.io/images/news/tianhe-star/exhibition.jpg" width="300px" />&lt;/p>&lt;/td>
+&lt;td>&lt;p style="text-align:center"> &lt;img src="https://hpcde.github.io/images/news/tianhe-star/star.jpg" width="250px" />&lt;/p>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>团队自研的 MISA-MD 程序采用自己设计的粒子存储数据结构和邻居粒子的查找遍历算法，大幅提高 MD 性能与规模。相对于经典的分子动力学模拟软件lammps，MISA-MD在天河2号超算上，内存节省约超过 &lt;strong>60%&lt;/strong>，计算性能提升约 &lt;strong>10%～20%&lt;/strong>。
+面向材料级联碰撞过程的模拟，团队专门开发了级联碰撞模拟模块，相对于其他分子分子动力学软件，进行级联碰撞模拟更容易操作且用户友好。
+此外，MISA-MD 还提供了多平台计算支持，目前 MISA-MD 支持多款国产超算系统，包括纯CPU架构、GPU/DCU加速卡、神威从核。&lt;/p>
+&lt;p>目前, MISA-MD 源代码已经在 github 平台上开源，采用BSD 开源协议：&lt;a href="https://github.com/misa-md/misa-md" target="_blank" rel="noopener">https://github.com/misa-md/misa-md&lt;/a> 。&lt;/p>
+&lt;p style="text-align:center">
+&lt;img src="https://hpcde.github.io/images/news/tianhe-star/team.jpg" width="320px" />
+&lt;/p>
+&lt;p>&lt;a class="github-button" href="https://github.com/misa-md" data-size="large" aria-label="Follow @misa-md on GitHub">Follow @misa-md team&lt;/a>&lt;/p></description></item><item><title>实验室学生参加 ICS 2018 会议并做报告</title><link>https://hpcde.github.io/post/2018-isc-conference/</link><pubDate>Tue, 12 Jun 2018 00:56:32 +0800</pubDate><guid>https://hpcde.github.io/post/2018-isc-conference/</guid><description>&lt;p>&lt;a href="http://ics2018.ict.ac.cn" target="_blank" rel="noopener">ICS 2018&lt;/a> 会议全称 the 32nd ACM International Conference on Supercomputing (ICS 2018)，
+是高性能计算领域的著名会议之一。&lt;/p>
+&lt;p>实验室学生王先梦、汪岸、储根深等参加北京举办的 ICS 2018 会议，并在分论坛 &lt;a href="https://hpcms18.hpc.gensh.me" target="_blank" rel="noopener">The 2nd International Workshop on High Performance Computing for Advanced Modeling and Simulation in Nuclear Energy and Environmental Science&lt;/a> (简称 HPCMS 2018) 上做报告，报告主题围绕数值核反应堆技术(Virtual Reactors) 与并行水文模拟开展。&lt;/p>
+&lt;!-- ![](/images/news/ics-2018.png) --></description></item><item><title>CODATA前任主席John Rumbleb博士访问我院材料数据工程实验室</title><link>https://hpcde.github.io/post/2012-john-rumbleb/</link><pubDate>Mon, 23 Apr 2012 00:56:32 +0800</pubDate><guid>https://hpcde.github.io/post/2012-john-rumbleb/</guid><description>&lt;p>4月23日上午，John Rumble博士访问了我院材料数据工程实验室。&lt;/p>
+&lt;p>John Rumble博士现任国际信息协会(IIA: Information International Associates) 项目经理，Data Science Journal期刊主编，R&amp;amp;R 数据服务公司的董事长。
+曾任国际信息协会 IIA执行副总裁， 美国国家标准技术研究所（NIST：National Institute of Standards and Technology）标准参考组组长，CODATA(国际科学数据共享合作组织)主席。&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="https://hpcde.github.io/archived/news/newsimg/2012-04-23-01.jpg" alt="" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>Dr.Rumble博士此次来访的目的是对国际上材料科学数据共享领域有影响的研究工作进行深入调研。
+此前他先后访问了日本和英国。他首先给出了题为“Accessing Materials Data Today: Successes and Challenges”的调研提纲。
+随后围绕调研提纲胡长军教授、李扬博士围绕北京科技大学承担建设的国家科技基础条件平台项目“国家材料科学数据共享服务平台”做了简要地介绍。
+胡长军教授、时鹏老师和Dr.Rumble进行了广泛、深入的讨论。&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="https://hpcde.github.io/archived/news/newsimg/2012-04-23-02.jpg" alt="" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>随后Dr. Rumble参观了材料数据工程实验室的高性能计算机群，仔细观看了项目组的成果演示，并就实验室发表的基于Ontology 技术的材料数据集成方面的相关论文进行了深入的研讨。
+最后Dr.Rumble正式邀请胡长军教授和李杨博士参加今年10月在台北举行的CODATA年会。&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="https://hpcde.github.io/archived/news/newsimg/2012-04-23-03.jpg" alt="" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p></description></item></channel></rss>
