@@ -1,3 +1,7 @@
 *.swp
 .DS_Store
+
+# Hugo
+/resources/
 public/
+assets/jsconfig.json

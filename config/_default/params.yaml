@@ -1,0 +1,61 @@
+# SITE SETUP
+# Guide: https://wowchemy.com/docs/getting-started/
+# Documentation: https://wowchemy.com/docs/
+# This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
+
+# Appearance
+
+appearance:
+  theme_day: minimal
+  theme_night:
+  font: native
+  font_size: M
+
+# SEO
+
+
+header:
+  navbar:
+    enable: true
+    align: r
+    show_logo: true
+    show_language: false
+    show_day_night: true
+    show_search: true
+    highlight_active_link: true
+
+# Site footer
+
+footer:
+  block: minimal
+  text: |
+    内网入口&ensp;[Cluster Docs](https://links.hpcer.dev/cluster-docs)&ensp; [Git Repository](https://links.hpcer.dev/git)&ensp; [Wiki](https://links.hpcer.dev/wiki) <br/>
+    相关链接&ensp;[北京科技大学计算机与通信工程学院](https://scce.ustb.edu.cn)&ensp; [智能超算融合应用技术教育部工程研究中心](http://ercis.ustb.edu.cn) <br/>
+  copyright:
+    notice: '© {year} HPCDE. This work is licensed under {license}'
+    license:
+      enable: true
+      allow_derivatives: false
+      share_alike: true
+      allow_commercial: false
+  show_translations: true
+
+# Localization
+
+locale:
+  date_format: 'Jan 2, 2006'
+  time_format: '3:04 PM'
+  address_format: en-us
+
+# Site features
+features:
+  repository:
+    url: 'https://github.com/hpcde/hpcde.github.com'
+    content_dir: content
+    branch: main
+
+# Citation style
+
+publications:
+  date_format: January 2006
+  citation_style: apa
