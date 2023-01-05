@@ -7,8 +7,6 @@ authors:
   - admin
 ---
 
-<a class="github-button" href="https://github.com/misa-md" data-size="large" aria-label="Follow @misa-md on GitHub">Follow @misa-md team</a>
-
 近日，实验室开发的大规模并行分子动力学模拟软件 MISA-MD 获得国家超算广州中心的"天河之星"优秀应用奖，
 团队成员前往广州参加用户大会，并出席优秀应用颁奖典礼。
 <!--more-->
@@ -32,3 +30,5 @@ authors:
 <p style="text-align:center">
   <img src="/images/news/tianhe-star/team.jpg" width="320px" />
 </p>
+
+<a class="github-button" href="https://github.com/misa-md" data-size="large" aria-label="Follow @misa-md on GitHub">Follow @misa-md team</a>

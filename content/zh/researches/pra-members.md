@@ -1,10 +1,15 @@
 ---
-title: "历届“先导杯”竞赛团队"
+# title: "历届“先导杯”竞赛团队"
 date: 2022-11-12T10:33:26+08:00
 draft: false
+weight: 20
+
+design:
+  columns: '2'
 ---
 
-## 第二届“先导杯” (PRA2021)
+## 历届“先导杯”竞赛团队
+### 第二届“先导杯” (PRA2021)
 
 #### ”SpMV“ 赛道
 - 奖项：二等奖
@@ -19,7 +24,7 @@ draft: false
 | ![SpMV Ranking](/images/news/pra-2021/spmv-rank.webp) | ![SpMV Team](http://scce.ustb.edu.cn/attach/file/xinwentongzhi/xueyuanxinwen/2021-10-17/fb4742f5cf2288a07646ffc928780fd9.jpg) | 
 
 
-## 第三届“先导杯” （PRA2022）
+### 第三届“先导杯” （PRA2022）
 
 #### “面向流体力学的稀疏基础算子优化” 赛道
 - 奖项：一等奖
