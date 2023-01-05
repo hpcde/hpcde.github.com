@@ -49,10 +49,22 @@ locale:
 
 # Site features
 features:
+  syntax_highlighter:
+    enable: false
+    extra_languages:
+      - r
+      - latex
+  math:
+    enable: false
+  privacy_pack:
+    enable: false
   repository:
     url: 'https://github.com/hpcde/hpcde.github.com'
     content_dir: content
     branch: main
+  avatar:
+    gravatar: false
+    shape: circle
 
 # Citation style
 
