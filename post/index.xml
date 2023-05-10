@@ -1,4 +1,46 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Latest News | HPCDE Lab</title><link>https://hpcde.github.io/post/</link><atom:link href="https://hpcde.github.io/post/index.xml" rel="self" type="application/rss+xml"/><description>Latest News</description><generator>Wowchemy (https://wowchemy.com)</generator><language>zh-Hans</language><lastBuildDate>Sun, 17 Oct 2021 08:00:00 +0800</lastBuildDate><image><url>https://hpcde.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url><title>Latest News</title><link>https://hpcde.github.io/post/</link></image><item><title>实验室团队在第二届 “先导杯” 计算应用大奖赛中获“SpMV”赛道二等奖</title><link>https://hpcde.github.io/post/2021-pra/</link><pubDate>Sun, 17 Oct 2021 08:00:00 +0800</pubDate><guid>https://hpcde.github.io/post/2021-pra/</guid><description>&lt;p>10月15日，中科曙光和百度公司等联合主办的第二届“先导杯”计算应用大奖赛圆满落幕。由实验室成员（储根深（队长）、何远杰、丁哲昭、董玲玉、邢龙岳、戴潮虎、卢旭）组成的&amp;quot;PHP是最好的编程语言&amp;quot;战队斩获“SpMV”赛道二等奖，
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Latest News | HPCDE Lab</title><link>https://hpcde.github.io/post/</link><atom:link href="https://hpcde.github.io/post/index.xml" rel="self" type="application/rss+xml"/><description>Latest News</description><generator>Wowchemy (https://wowchemy.com)</generator><language>zh-Hans</language><lastBuildDate>Wed, 10 May 2023 21:01:00 +0800</lastBuildDate><image><url>https://hpcde.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url><title>Latest News</title><link>https://hpcde.github.io/post/</link></image><item><title>喜讯：胡长军教授团队论文被高性能计算领域重要会议 HPDC 2023 接收</title><link>https://hpcde.github.io/post/2023-hpdc-spmv-paper/</link><pubDate>Wed, 10 May 2023 21:01:00 +0800</pubDate><guid>https://hpcde.github.io/post/2023-hpdc-spmv-paper/</guid><description>&lt;p>日前，课题组胡长军教授团队储根深博士等人完成的论文 “Efficient Algorithm Design of Optimizing SpMV on GPU” 被 HPDC 2023 接收。&lt;/p>
+&lt;p>&lt;a href="https://hpdc.org" target="_blank" rel="noopener">高性能并行和分布式计算国际研讨会&lt;/a>（International Symposium on High-Performance Parallel and Distributed Computing，HPDC）旨在介绍有关高性能计算并行和分布式系统设计、实现、评估和使用的最新研究，是大型计算机研究中久负盛名的会议之一（&lt;a href="https://csrankings.org" target="_blank" rel="noopener">CS-Ranking&lt;/a>上列出的高性能计算领域三大顶会之一）。&lt;br>
+HPDC 2023 将于6月中旬在美国弗罗里达州奥兰多市召开，该会议从 100 多篇投稿论文中，最终评审出 22 篇高质量论文录用。&lt;/p>
+&lt;p>论文 “Efficient Algorithm Design of Optimizing SpMV on GPU” 面向 GPU 架构上的稀疏向量乘（SpMV）这一重要 kernel，开展了新的算法设计与性能优化，提出了两个新的高效 SpMV 并行算法并通过自适应的方式进行组合，将 SpMV 的性能进行了大量提升，突破了前述算法的性能纪录。&lt;/p>
+&lt;p>一直以来，稀疏矩阵向量在科学计算中发挥着重要作用，自 GPU 出现以来的数十年里，高性能计算的科研人员和高性能计算工程师们一直在开展 SpMV 的性能调优，以不断逼近硬件性能极限。
+本文提出的SpMV 的算法，对 GPU 上的负载均衡、访存性能、高速片上缓存和调度开展了深入研究。&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="https://hpcde.github.io/images/news/2023-spmv-hpdc23/spmv-line-enhance.svg" alt="line-enhance 算法" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;em>本论文提出的新算法示意图 (其一的 line-enhance 算法)&lt;/em>&lt;/p>
+&lt;p>最终实现的算法相对于目前的 SOTA （state of the art） 算法，
+性能分别有了424%（对比 CSR-Vector 算法）, 741% （对比 CSR-Adaptive 算法）, 49%（对比 HOLA 算法）, 46%（对比 cuSparse 算法）, 72%（对比 merge-based SpMV 算法）的提升。
+该成果得到审稿人的充分肯定，并评价说 “Performance improvement compared to cuSparse and ROCm are impressive.”（注：cuSparse 与 ROCm 分别是 NVIDIA 和 AMD GPU的系统库）。&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="https://hpcde.github.io/images/news/2023-spmv-hpdc23/spmv-vs-cub-speedup.svg" alt="" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;em>图：本论文提出的新算法性能与CUDA 生态的 cub 库的性能对比 (纵坐标为加速比，横坐标为稀疏矩阵算例，按矩阵非零元素排列，大于1表述我们算法性能更优)&lt;/em>&lt;/p>
+&lt;p>团队一直以来面向国产超算开展高性能计算软件、算法库的开发与性能优化工作，目前该系列算法已经适配曙光超算的 DCU 架构，期待后续该系列算法可以在国产超算生态中发挥重要作用。&lt;/p>
+&lt;hr>
+&lt;p>论文信息：&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bib" data-lang="bib">&lt;span class="line">&lt;span class="cl">&lt;span class="c"># For github user: you can also click the link in this repository landing page at the right sidebar, with the label &amp;#34;Cite this repository.&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nc">@inproceedings&lt;/span>&lt;span class="p">{&lt;/span>&lt;span class="nl">chu_spmv_gpu:_2023&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">title&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s">{Efficient Algorithm Design of Optimizing SpMV on GPU}&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">isbn&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s">{979-8-4007-0155-9/23/06}&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">url&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s">{http://doi.org/10.1145/3588195.3593002}&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">doi&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s">{10.1145/3588195.3593002}&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">language&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s">{en}&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">urldate&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s">{2023-6-20}&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">booktitle&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s">{Proceedings of the 32nd International Symposium on High-Performance Parallel and Distributed Computing (HPDC &amp;#39;23), June 16--23, 2023, Orlando, FL, USA}&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">publisher&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s">{ACM Press}&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">author&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s">{Chu, Genshen and He, Yuanjie and Dong, Lingyu and Ding, Zhezhao and Chen, Dandan and Bai, He and Wang, Xuesong and Hu, Changjun}&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">year&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s">{2023}&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">numpages&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s">{14}&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">series&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s">{HPDC &amp;#39;23}&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">address&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s">{Orlando, Florida}&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">location&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s">{Orlando, FL, USA}&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">pages&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s">{1--14}&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>论文链接：&lt;a href="http://doi.org/10.1145/3588195.3593002" target="_blank" rel="noopener">http://doi.org/10.1145/3588195.3593002&lt;/a>。&lt;/p></description></item><item><title>实验室团队在第二届 “先导杯” 计算应用大奖赛中获“SpMV”赛道二等奖</title><link>https://hpcde.github.io/post/2021-pra/</link><pubDate>Sun, 17 Oct 2021 08:00:00 +0800</pubDate><guid>https://hpcde.github.io/post/2021-pra/</guid><description>&lt;p>10月15日，中科曙光和百度公司等联合主办的第二届“先导杯”计算应用大奖赛圆满落幕。由实验室成员（储根深（队长）、何远杰、丁哲昭、董玲玉、邢龙岳、戴潮虎、卢旭）组成的&amp;quot;PHP是最好的编程语言&amp;quot;战队斩获“SpMV”赛道二等奖，
 斩获奖金6万元。&lt;/p>
 &lt;p>
 &lt;figure >
