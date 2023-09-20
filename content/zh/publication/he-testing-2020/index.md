@@ -34,11 +34,26 @@ projects: []
 publishDate: '2023-01-04T14:29:12.338426Z'
 publication_types:
 - '1'
-abstract: ''
+abstract: High performance numerical simulation programs are widely used to simulate
+  actual physical processes on high performance computers for the analysis of various
+  physical and engineering problems. They are usually regarded as non-testable due
+  to their high complexity. This paper reports our real experience and lessons learned
+  from testing five simulation programs that will be used to design and analyze nuclear
+  power plants. We applied five testing approaches and found 33 bugs. We found that
+  property-based testing and metamorphic testing are two effective methods. Nevertheless,
+  we suffered from the lack of domain knowledge, the high test costs, the shortage
+  of test cases, severe oracle issues, and inadequate automation support. Consequently,
+  the five programs are not exhaustively tested from the perspective of software testing,
+  and many existing software testing techniques and tools are not fully applicable
+  due to scalability and portability issues. We need more collaboration and communication
+  with other communities to promote the research and application of software testing
+  techniques.
 publication: '*Proceedings of the 29th ACM SIGSOFT International Symposium on Software
   Testing and Analysis*'
 doi: 10.1145/3395363.3397382
 links:
 - name: URL
   url: https://dl.acm.org/doi/10.1145/3395363.3397382
+- name: "CCF A"
+  url: ""
 ---

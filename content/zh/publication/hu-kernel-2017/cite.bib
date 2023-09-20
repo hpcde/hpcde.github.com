@@ -1,0 +1,15 @@
+@article{hu_kernel_2017,
+ abstract = {To optimize short-range force computations in Molecular Dynamics (MD) simulations, multi-threading and SIMD optimizations are presented in this paper. With respect to multi-threading optimization, a Partition-and-Separate-Calculation (PSC) method is designed to avoid write conflicts caused by using Newton’s third law. Serial bottlenecks are eliminated with no additional memory usage. The method is implemented by using the OpenMP model. Furthermore, the PSC method is employed on Intel Xeon Phi coprocessors in both native and offload models. We also evaluate the performance of the PSC method under different thread affinities on the MIC architecture. In the SIMD execution, we explain the performance influence in the PSC method, considering the ‘‘if-clause’’ of the cutoff radius check. The experiment results show that our PSC method is relatively more efficient compared to some traditional methods. In double precision, our 256-bit SIMD implementation is about 3 times faster than the scalar version.},
+ author = {Hu, Changjun and Wang, Xianmeng and Li, Jianjiang and He, Xinfu and Li, Shigang and Feng, Yangde and Yang, Shaofeng and Bai, He},
+ doi = {10.1016/j.cpc.2016.07.010},
+ issn = {00104655},
+ journal = {Computer Physics Communications},
+ language = {en},
+ month = {February},
+ pages = {31--40},
+ title = {Kernel optimization for short-range molecular dynamics},
+ url = {https://linkinghub.elsevier.com/retrieve/pii/S0010465516301928},
+ urldate = {2019-01-22},
+ volume = {211},
+ year = {2017}
+}
